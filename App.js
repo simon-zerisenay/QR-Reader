@@ -15,14 +15,14 @@ function App() {
   return ( 
     <Stack.Navigator> 
       <Stack.Screen name="Home" component={Home} />
-      <Stack.Screen name="Scanner" component={Scanner} />
-    </Stack.Navigator>
+      <Stack.Screen name="Scanner" component={Scanner} /> 
+    </Stack.Navigator> 
   );
 } 
 
 const styles = StyleSheet.create({  
   container: {
-    flex: 1,  
+    flex: 1,   
     backgroundColor: '#ffe4c4', 
     alignItems: 'center', 
     justifyContent: 'center',
