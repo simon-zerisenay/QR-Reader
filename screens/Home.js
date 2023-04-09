@@ -13,7 +13,7 @@ export default function Home() {
     <View style={styles.container}>
         <Button title='Scan' onPress={() => navigation.navigate("Scanner")}/>
     </View>
-  );
+  ); 
 }
 
 const styles = StyleSheet.create({
