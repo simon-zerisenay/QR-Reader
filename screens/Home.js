@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 
 
 export default function Home() {
-    const navigation = useNavigation();
+    const navigation = useNavigation(); 
 
   return (
     <View style={styles.container}>
