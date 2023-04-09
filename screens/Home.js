@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <View style={styles.container}>
         <Button title='Scan' onPress={() => navigation.navigate("Scanner")}/>
-    </View>
+    </View> 
   ); 
 }
 
