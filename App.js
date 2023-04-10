@@ -16,7 +16,7 @@ function App() {
     <Stack.Navigator> 
       <Stack.Screen name="Home" component={Home} /> 
       <Stack.Screen name="Scanner" component={Scanner} />   
-    </Stack.Navigator> 
+    </Stack.Navigator>  
   );
 } 
  
