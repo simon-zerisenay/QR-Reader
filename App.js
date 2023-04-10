@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
       
   }, 
 }); 
- 
+  
 export default () => {
   return (
     <NavigationContainer>
