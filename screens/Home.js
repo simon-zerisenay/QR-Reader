@@ -25,5 +25,5 @@ const styles = StyleSheet.create({
     // backgroundColor: 'red',
     // borderRadius: '10',
     
-  },
+  }, 
 });
