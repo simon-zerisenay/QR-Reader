@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     borderRadius: '20',
     
   }, 
-}); 
+});
   
 export default () => {
   return (
