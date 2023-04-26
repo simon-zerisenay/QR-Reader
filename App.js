@@ -10,17 +10,17 @@ const Stack = createStackNavigator();
  
  
 
-function App() {  
+function App() { 
   return (  
     <Stack.Navigator> 
       <Stack.Screen name="Home" component={Home} /> 
-      <Stack.Screen name="Scanner" component={Scanner} /> 
+      <Stack.Screen name="Scanner" component={Scanner} />  
     </Stack.Navigator>     
   );    
 } 
     
 const styles = StyleSheet.create({      
-  container: {  
+  container: {   
     flex: 1,         
     backgroundColor: '#ffe4c4',     
     alignItems: 'center',   
