@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
 });  
 export default () => { 
   return (
-    <NavigationContainer>
+    <NavigationContainer> 
      
         <App />
       
