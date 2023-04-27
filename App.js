@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 import Scanner from './screens/Scanner'; 
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './screens/Home'; 
-import { NavigationContainer } from '@react-navigation/native';   
+import { NavigationContainer } from '@react-navigation/native';    
  
 const Stack = createStackNavigator();
  
