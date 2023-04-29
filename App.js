@@ -8,7 +8,6 @@ import { NavigationContainer } from '@react-navigation/native';
  
 const Stack = createStackNavigator();
 
-  
 function App() { 
   return (  
     <Stack.Navigator>   
