@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',      
     justifyContent: 'center',       
     borderRadius: '20', 
-      
+    
   },
 });  
 export default () => { 
