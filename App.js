@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',       
     borderRadius: '20',  
    
-  },   
+  },    
 });  
 export default () => { 
   return (
