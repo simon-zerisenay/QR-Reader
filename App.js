@@ -9,7 +9,7 @@ import { NavigationContainer } from '@react-navigation/native';
 const Stack = createStackNavigator();  
    
 function App() { 
-  return (    
+  return (     
     <Stack.Navigator>   
       <Stack.Screen name="Home" component={Home} />  
       <Stack.Screen name="Scanner" component={Scanner} />   
