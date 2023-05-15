@@ -14,7 +14,7 @@ function App() {
       <Stack.Screen name="Home" component={Home} />  
       <Stack.Screen name="Scanner" component={Scanner} />   
     </Stack.Navigator>         
-  );          
+  );         
 } 
        
 const styles = StyleSheet.create({        
