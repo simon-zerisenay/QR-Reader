@@ -7,7 +7,7 @@ export default function Home(){
     const navigation = useNavigation();     
   return (  
     <View style={styles.container}>
-        <Button title='Scan' onPress={() => navigation.navigate("Scanner")}/>
+        <Button title='Scan' onPress={() => navigation.navigate("Scanner")}/> 
     </View> 
   ); 
 }
