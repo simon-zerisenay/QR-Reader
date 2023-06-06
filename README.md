@@ -5,7 +5,7 @@
     <img src="https://github.com/simon-zerisenay/simon-zerisenay/blob/main/QRREADER.png"  padding="20" height="170" width="200" alt="twitter logo"  />
   </a>
 
- </div> 
+ </div>  
 This is a React Native component that uses the expo-barcode-scanner package to scan barcodes using the device's camera. The component has three states, hasPermission, scanned, and setScanned. The hasPermission state is used to determine if the app has permission to use the device's camera. The scanned state is used to determine if a barcode has been scanned. The setScanned state is used to update the scanned state when a barcode is scanned or when the user taps the "Tap to Scan Again" button.
    
 The component has a useEffect hook that runs when the component mounts. It requests camera permission from the user and updates the hasPermission state accordingly.
