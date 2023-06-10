@@ -17,3 +17,4 @@ The component renders a View component that contains a BarCodeScanner component 
 The StyleSheet component is used to define the styles for the container style rule. It defines a container that takes up the full height and width of the screen and centers its contents vertically. 
  
  
+ 
