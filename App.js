@@ -8,7 +8,7 @@ import { NavigationContainer } from '@react-navigation/native';
 
 const Stack = createStackNavigator();   
    
-function App() {
+function App() { 
   return (          
     <Stack.Navigator>    
       <Stack.Screen name="Home" component={Home} /> 
