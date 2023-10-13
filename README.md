@@ -12,7 +12,7 @@ The component has a useEffect hook that runs when the component mounts. It reque
 
 The handleBarCodeScanned function is called when a barcode is scanned. It updates the scanned state to true and displays an alert with the barcode's type and data.
  
-The component renders a View component that contains a BarCodeScanner component from the expo-barcode-scanner package. The onBarCodeScanned prop of the BarCodeScanner component is set to undefined if the scanned state is true. This prevents the handleBarCodeScanned function from being called multiple times if the user holds the camera over the barcode for too long. The Button component is only displayed if the scanned state is true and the user can tap it to scan again.
+The component renders a View component that contains a BarCodeScanner component from the expo-barcode-scanner package. The onBarCodeScanned prop of the BarCodeScanner component is set to undefined if the scanned state is true. This prevents the handleBarCodeScanned function from being called multiple times if the user holds the camera over the barcode for too long. The Button component is only displayed if the scanned state is true and the user can tap it to scan again. 
  
 The StyleSheet component is used to define the styles for the container style rule. It defines a container that takes up the full height and width of the screen and centers its contents vertically. 
    
